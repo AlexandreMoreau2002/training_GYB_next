@@ -11,8 +11,6 @@ export default async function ArticleDetailPage({
   params: { slug: string; locale: string }
 }) {
   const { slug, locale } = await params
-  console.log('voici les params recup par la page et le fichier.', await params)
-  const t = await getTranslations('articles.detail')
 
   let article
   try {

@@ -1,10 +1,9 @@
 'use client';
 
-import { useAuthStore } from '@/stores/auth.store';
+import { useEffect } from 'react';
 import { useTranslations } from 'next-intl';
 import { useRouter } from '@/i18n/navigation';
-import { useEffect } from 'react';
-import { Button } from '@/components/ui';
+import { useAuthStore } from '@/stores/auth.store';
 
 export default function ProfilePage() {
   const t = useTranslations('profile');

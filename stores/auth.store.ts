@@ -65,7 +65,7 @@ type AuthStore = AuthState & AuthActions;
 export const useAuthStore = create<AuthStore>()(
   // persist: sauvegarde l'état dans localStorage
   persist(
-    (set, get) => ({
+    (set) => ({
       // === STATE ===
       user: null,
       isLoading: true,

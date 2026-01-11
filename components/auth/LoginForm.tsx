@@ -25,7 +25,7 @@ export function LoginForm() {
       await login(username, password);
       router.push('/profile');
     } catch (err) {
-      // In a real app, you would parse the error
+      console.error(err)
       setError(t('error.invalid'));
     } finally {
       setIsLoading(false);

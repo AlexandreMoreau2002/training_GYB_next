@@ -1,7 +1,7 @@
-import { getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
-import { ArticleForm } from '@/components/articles/ArticleForm';
 import { articlesService } from '@/lib/api';
+import { getTranslations } from 'next-intl/server';
+import { ArticleForm } from '@/components/articles/ArticleForm';
 
 export default async function EditArticlePage({
   params,
@@ -15,6 +15,7 @@ export default async function EditArticlePage({
   try {
     article = await articlesService.getBySlug(slug);
   } catch (error) {
+    console.error(error)
     notFound();
   }
 

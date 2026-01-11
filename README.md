@@ -490,6 +490,7 @@ npm run start
 
 # Linter
 npm run lint
+npm run lint:fix
 ```
 
 Rendez-vous sur [http://localhost:3000](http://localhost:3000) !
