@@ -1,0 +1,191 @@
+{
+  "metadata": {
+    "title": "Summit - Climbing Blog",
+    "description": "Discover the best articles about climbing, bouldering, sport climbing and alpinism."
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "retry": "Retry",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "search": "Search",
+    "noResults": "No results",
+    "seeMore": "See more",
+    "seeAll": "See all"
+  },
+  "nav": {
+    "home": "Home",
+    "articles": "Articles",
+    "categories": "Categories",
+    "about": "About",
+    "login": "Login",
+    "logout": "Logout",
+    "profile": "My Profile",
+    "writeArticle": "Write an article",
+    "skipToContent": "Skip to main content"
+  },
+  "home": {
+    "hero": {
+      "title": "Welcome to Summit",
+      "subtitle": "The blog dedicated to the passion of climbing",
+      "cta": "Discover articles"
+    },
+    "featured": {
+      "title": "Featured Articles",
+      "empty": "No articles yet"
+    },
+    "categories": {
+      "title": "Browse by category"
+    }
+  },
+  "articles": {
+    "title": "Articles",
+    "filters": {
+      "all": "All",
+      "category": "Category",
+      "sortBy": "Sort by",
+      "newest": "Newest",
+      "oldest": "Oldest",
+      "searchPlaceholder": "Search articles..."
+    },
+    "card": {
+      "readMore": "Read more",
+      "readingTime": "{minutes} min read",
+      "by": "By",
+      "publishedAt": "Published on"
+    },
+    "detail": {
+      "backToList": "Back to articles",
+      "share": "Share",
+      "edit": "Edit",
+      "comments": "Comments",
+      "noComments": "No comments yet",
+      "writeComment": "Write a comment"
+    },
+    "empty": "No articles found",
+    "draft": "Draft"
+  },
+  "comments": {
+    "title": "Comments ({count})",
+    "placeholder": "Your comment...",
+    "submit": "Post",
+    "loading": "Loading...",
+    "reply": "Reply",
+    "replyTo": "Reply to {author}",
+    "cancelReply": "Cancel",
+    "edited": "edited",
+    "noComments": "No comments yet. Be the first to comment!",
+    "writeComment": "Write a comment",
+    "loginToComment": "Log in to leave a comment.",
+    "fetchError": "Failed to load comments.",
+    "retry": "Retry",
+    "authRequired": "You must be logged in to comment.",
+    "postError": "Failed to post comment.",
+    "delete": {
+      "confirm": "Are you sure you want to delete this comment?"
+    },
+    "loginRequired": "Log in to comment"
+  },
+  "auth": {
+    "login": {
+      "title": "Login",
+      "subtitle": "Sign in to access your account",
+      "username": "Username",
+      "password": "Password",
+      "submit": "Sign in",
+      "forgotPassword": "Forgot password?",
+      "noAccount": "Don't have an account?",
+      "register": "Sign up",
+      "error": {
+        "invalid": "Invalid credentials",
+        "required": "This field is required"
+      }
+    },
+    "logout": {
+      "title": "Logout",
+      "message": "You have been successfully logged out.",
+      "backHome": "Back to home"
+    }
+  },
+  "profile": {
+    "title": "My Profile",
+    "fields": {
+      "username": "Username",
+      "email": "Email",
+      "firstName": "First name",
+      "lastName": "Last name",
+      "bio": "Bio",
+      "website": "Website",
+      "avatar": "Avatar URL"
+    },
+    "myArticles": "My Articles",
+    "stats": {
+      "articles": "Published articles",
+      "comments": "Comments",
+      "memberSince": "Member since"
+    },
+    "updated": "Profile updated successfully"
+  },
+  "categories": {
+    "title": "Categories",
+    "articlesCount": "{count, plural, =0 {No articles} =1 {1 article} other {# articles}}"
+  },
+  "footer": {
+    "tagline": "The climbing community blog",
+    "madeWith": "Made with passion",
+    "rights": "All rights reserved"
+  },
+  "articleForm": {
+    "title": {
+      "create": "New Article",
+      "edit": "Edit Article"
+    },
+    "fields": {
+      "title": "Title",
+      "excerpt": "Excerpt",
+      "content": "Content",
+      "imageUrl": "Image URL",
+      "category": "Category",
+      "tags": "Tags",
+      "status": "Status"
+    },
+    "placeholders": {
+      "title": "Your article title",
+      "excerpt": "A short summary of your article...",
+      "content": "Write your article here...",
+      "imageUrl": "https://example.com/image.jpg",
+      "category": "Select a category"
+    },
+    "status": {
+      "draft": "Draft",
+      "published": "Published"
+    },
+    "actions": {
+      "create": "Publish Article",
+      "update": "Save Changes",
+      "cancel": "Cancel"
+    },
+    "errors": {
+      "unauthorized": "You must be logged in to publish an article.",
+      "generic": "An error occurred while saving."
+    }
+  },
+  "errors": {
+    "404": {
+      "title": "Page not found",
+      "message": "The page you're looking for doesn't exist.",
+      "backHome": "Back to home"
+    },
+    "500": {
+      "title": "Server error",
+      "message": "An error occurred. Please try again later."
+    },
+    "network": "Server connection error"
+  }
+}

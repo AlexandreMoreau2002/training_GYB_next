@@ -1,0 +1,209 @@
+{
+  "metadata": {
+    "title": "Summit - Blog Escalade",
+    "description": "Découvrez les meilleurs articles sur l'escalade, le bloc, la voie et l'alpinisme."
+  },
+  "common": {
+    "loading": "Chargement...",
+    "error": "Une erreur est survenue",
+    "retry": "Réessayer",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "back": "Retour",
+    "next": "Suivant",
+    "previous": "Précédent",
+    "search": "Rechercher",
+    "noResults": "Aucun résultat",
+    "seeMore": "Voir plus",
+    "seeAll": "Voir tout"
+  },
+  "nav": {
+    "home": "Accueil",
+    "articles": "Articles",
+    "categories": "Catégories",
+    "about": "À propos",
+    "login": "Connexion",
+    "logout": "Déconnexion",
+    "profile": "Mon profil",
+    "writeArticle": "Écrire un article",
+    "skipToContent": "Aller au contenu principal",
+    "admin": "Utilisateurs"
+  },
+  "home": {
+    "hero": {
+      "title": "Bienvenue sur Summit",
+      "subtitle": "Le blog dédié à la passion de l'escalade",
+      "cta": "Découvrir les articles"
+    },
+    "featured": {
+      "title": "Articles à la une",
+      "empty": "Aucun article pour le moment"
+    },
+    "categories": {
+      "title": "Explorer par catégorie"
+    }
+  },
+  "articles": {
+    "title": "Articles",
+    "filters": {
+      "all": "Tous",
+      "category": "Catégorie",
+      "sortBy": "Trier par",
+      "newest": "Plus récents",
+      "oldest": "Plus anciens",
+      "searchPlaceholder": "Rechercher un article..."
+    },
+    "card": {
+      "readMore": "Lire la suite",
+      "readingTime": "{minutes} min de lecture",
+      "by": "Par",
+      "publishedAt": "Publié le"
+    },
+    "detail": {
+      "backToList": "Retour aux articles",
+      "share": "Partager",
+      "edit": "Modifier",
+      "comments": "Commentaires",
+      "noComments": "Aucun commentaire pour le moment",
+      "writeComment": "Écrire un commentaire"
+    },
+    "empty": "Aucun article trouvé",
+    "draft": "Brouillon"
+  },
+  "comments": {
+    "title": "Commentaires ({count})",
+    "placeholder": "Votre commentaire...",
+    "submit": "Publier",
+    "loading": "Chargement...",
+    "reply": "Répondre",
+    "replyTo": "Répondre à {author}",
+    "cancelReply": "Annuler",
+    "edited": "modifié",
+    "noComments": "Aucun commentaire pour le moment. Soyez le premier à commenter !",
+    "writeComment": "Écrire un commentaire",
+    "loginToComment": "Connectez-vous pour laisser un commentaire.",
+    "fetchError": "Impossible de charger les commentaires.",
+    "retry": "Réessayer",
+    "authRequired": "Vous devez être connecté pour commenter.",
+    "postError": "Erreur lors de la publication du commentaire.",
+    "delete": {
+      "confirm": "Êtes-vous sûr de vouloir supprimer ce commentaire ?"
+    },
+    "loginRequired": "Connectez-vous pour commenter"
+  },
+  "auth": {
+    "login": {
+      "title": "Connexion",
+      "subtitle": "Connectez-vous pour accéder à votre compte",
+      "username": "Nom d'utilisateur",
+      "password": "Mot de passe",
+      "submit": "Se connecter",
+      "forgotPassword": "Mot de passe oublié ?",
+      "noAccount": "Pas encore de compte ?",
+      "register": "S'inscrire",
+      "error": {
+        "invalid": "Identifiants invalides",
+        "required": "Ce champ est requis"
+      }
+    },
+    "logout": {
+      "title": "Déconnexion",
+      "message": "Vous avez été déconnecté avec succès.",
+      "backHome": "Retour à l'accueil"
+    }
+  },
+  "profile": {
+    "title": "Mon profil",
+    "loading": "Chargement du profil...",
+    "fields": {
+      "username": "Nom d'utilisateur",
+      "email": "Email",
+      "firstName": "Prénom",
+      "lastName": "Nom",
+      "bio": "Bio",
+      "website": "Site web",
+      "avatar": "URL de l'avatar"
+    },
+    "myArticles": "Mes articles",
+    "stats": {
+      "articles": "Articles publiés",
+      "comments": "Commentaires",
+      "memberSince": "Membre depuis"
+    },
+    "updated": "Profil mis à jour avec succès"
+  },
+  "categories": {
+    "title": "Catégories",
+    "articlesCount": "{count, plural, =0 {Aucun article} =1 {1 article} other {# articles}}"
+  },
+  "footer": {
+    "tagline": "Le blog de la communauté escalade",
+    "madeWith": "Fait avec passion",
+    "rights": "Tous droits réservés"
+  },
+  "errors": {
+    "404": {
+      "title": "Page non trouvée",
+      "message": "La page que vous recherchez n'existe pas.",
+      "backHome": "Retour à l'accueil"
+    },
+    "500": {
+      "title": "Erreur serveur",
+      "message": "Une erreur est survenue. Veuillez réessayer plus tard."
+    },
+    "network": "Erreur de connexion au serveur"
+  },
+  "articleForm": {
+    "title": {
+      "create": "Nouvel article",
+      "edit": "Modifier l'article"
+    },
+    "fields": {
+      "title": "Titre",
+      "excerpt": "Extrait",
+      "content": "Contenu",
+      "imageUrl": "URL de l'image",
+      "category": "Catégorie",
+      "tags": "Tags",
+      "status": "Statut"
+    },
+    "placeholders": {
+      "title": "Titre de votre article",
+      "excerpt": "Un court résumé de votre article...",
+      "content": "Écrivez votre article ici...",
+      "imageUrl": "https://exemple.com/image.jpg",
+      "category": "Sélectionner une catégorie"
+    },
+    "status": {
+      "draft": "Brouillon",
+      "published": "Publié"
+    },
+    "actions": {
+      "create": "Publier l'article",
+      "update": "Enregistrer les modifications",
+      "cancel": "Annuler"
+    },
+    "errors": {
+      "unauthorized": "Vous devez être connecté pour publier un article.",
+      "generic": "Une erreur est survenue lors de l'enregistrement."
+    }
+  },
+  "admin": {
+    "users": {
+        "title": "Gestion des utilisateurs",
+        "description": "Consultez et gérez la liste des utilisateurs inscrits.",
+        "table": {
+            "user": "Utilisateur",
+            "email": "Email",
+            "role": "Rôle",
+            "joined": "Inscrit le"
+        },
+        "roles": {
+            "admin": "Admin",
+            "user": "Utilisateur"
+        }
+    }
+  }
+}
